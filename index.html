@@ -20,6 +20,7 @@
         td { padding: 15px; border-bottom: 1px solid #eee; }
         .highlight-box { background: #f8f9ff; border-left: 5px solid #667eea; padding: 20px; margin: 20px 0; }
         .warning-box { background: #fff3cd; border-left: 5px solid #ffc107; padding: 20px; margin: 20px 0; }
+        .success-box { background: #d4edda; border-left: 5px solid #28a745; padding: 20px; margin: 20px 0; }
         .contact-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px; }
         .contact-box a { color: #fff; }
         .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #eee; color: #888; }
@@ -29,17 +30,18 @@
     <div class="container">
         <h1>🔒 Política de Privacidad</h1>
         <h1 style="font-size: 1.5em; color: #764ba2;">UOAVID</h1>
-        <p class="update-date"><strong>Última actualización:</strong> 21 de enero de 2026</p>
+        <p class="update-date"><strong>Última actualización:</strong> 19 de agosto de 2026</p>
 
         <h2>1. Introducción</h2>
-        <p>Bienvenido a <strong>UOAVID</strong>. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y protegemos su información personal cuando utiliza nuestra aplicación móvil.</p>
+        <p>Bienvenido a <strong>UOAVID</strong>. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos, conservamos y protegemos su información personal cuando utiliza nuestra aplicación móvil.</p>
         <p>Al descargar, instalar o usar UOAVID, usted acepta las prácticas descritas en esta Política de Privacidad.</p>
 
         <h2>2. Información que Recopilamos</h2>
         <h3>2.1 Información proporcionada por el usuario</h3>
         <ul>
             <li><strong>Datos de cuenta:</strong> Nombre, correo electrónico, contraseña y foto de perfil.</li>
-            <li><strong>Información de actividades:</strong> Datos relacionados con actividades, eventos y tareas.</li>
+            <li><strong>Información de actividades:</strong> Datos relacionados con actividades, eventos y tareas del ministerio.</li>
+            <li><strong>Peticiones de oración:</strong> Texto de peticiones enviadas voluntariamente por el usuario.</li>
         </ul>
 
         <h3>2.2 Permisos del dispositivo</h3>
@@ -47,19 +49,19 @@
             <tr><th>Permiso</th><th>Propósito</th></tr>
             <tr><td>📷 Cámara</td><td>Para capturar fotografías para actividades o perfil.</td></tr>
             <tr><td>📁 Almacenamiento</td><td>Para guardar y acceder a imágenes y archivos.</td></tr>
-            <tr><td>🔔 Notificaciones</td><td>Para enviar recordatorios y alertas.</td></tr>
+            <tr><td>🔔 Notificaciones</td><td>Para enviar recordatorios y alertas del ministerio.</td></tr>
             <tr><td>🌐 Internet</td><td>Para sincronizar datos con la nube.</td></tr>
         </table>
 
         <div class="warning-box">
-            <strong>⚠️ Importante:</strong> Puede revocar estos permisos desde la configuración de su dispositivo.
+            <strong>⚠️ Importante:</strong> Puede revocar estos permisos en cualquier momento desde la configuración de su dispositivo.
         </div>
 
         <h2>3. Cómo Usamos su Información</h2>
         <ul>
             <li>✅ Proporcionar y mejorar los servicios de la Aplicación.</li>
             <li>✅ Personalizar su experiencia de usuario.</li>
-            <li>✅ Enviar notificaciones sobre sus actividades.</li>
+            <li>✅ Enviar notificaciones sobre actividades y eventos del ministerio.</li>
             <li>✅ Garantizar la seguridad de la Aplicación.</li>
         </ul>
 
@@ -68,25 +70,70 @@
             <ul>
                 <li>❌ Vender sus datos personales a terceros.</li>
                 <li>❌ Enviar publicidad no solicitada.</li>
+                <li>❌ Rastrear su actividad fuera de la Aplicación.</li>
             </ul>
         </div>
 
         <h2>4. Almacenamiento y Seguridad</h2>
-        <p>Sus datos se almacenan de forma segura utilizando <strong>Firebase</strong> (Google Cloud Platform). Implementamos cifrado de datos, autenticación segura y acceso restringido.</p>
+        <p>Sus datos se almacenan de forma segura utilizando <strong>Firebase</strong> (Google Cloud Platform). Implementamos cifrado de datos en tránsito y en reposo, autenticación segura y acceso restringido por roles.</p>
+        <p>Para más información sobre las prácticas de seguridad de Firebase, consulte la <a href="https://firebase.google.com/support/privacy" target="_blank">Política de Privacidad de Firebase</a>.</p>
 
         <h2>5. Compartición de Información</h2>
-        <p><strong>No vendemos ni alquilamos su información personal.</strong> Solo compartimos datos con proveedores de servicios esenciales (Firebase) o cuando lo requiera la ley.</p>
+        <p><strong>No vendemos ni alquilamos su información personal.</strong> Solo compartimos datos con proveedores de servicios esenciales (Firebase de Google) o cuando lo requiera la ley aplicable.</p>
 
-        <h2>6. Sus Derechos</h2>
-        <p>Usted tiene derecho a: acceder, rectificar, eliminar, y portar sus datos personales. También puede oponerse al procesamiento o revocar su consentimiento en cualquier momento.</p>
+        <h2>6. Conservación de Datos</h2>
+        <p>Conservamos su información personal únicamente durante el tiempo necesario para los fines descritos en esta política. A continuación se detalla el período de conservación para cada tipo de dato:</p>
 
-        <h2>7. Privacidad de Menores</h2>
-        <p>UOAVID no está dirigida a menores de 13 años. No recopilamos intencionalmente información de niños menores de 13 años.</p>
+        <table>
+            <tr><th>Tipo de Dato</th><th>Período de Conservación</th></tr>
+            <tr><td>📋 Datos de cuenta (nombre, correo, foto)</td><td>Mientras la cuenta esté activa en el ministerio. Tras la desactivación de la cuenta, los datos se eliminan en un plazo máximo de 90 días.</td></tr>
+            <tr><td>🙏 Peticiones de oración</td><td>90 días desde su envío, luego se eliminan automáticamente.</td></tr>
+            <tr><td>🔔 Tokens de notificaciones push</td><td>Mientras la aplicación esté instalada en el dispositivo o hasta que se revoque el permiso de notificaciones.</td></tr>
+            <tr><td>📊 Datos de uso y diagnóstico (crashes)</td><td>90 días, gestionados por Firebase Crashlytics. Se eliminan automáticamente tras ese período.</td></tr>
+            <tr><td>📅 Registros de actividades del ministerio</td><td>Mientras la cuenta esté activa. Se eliminan junto con la cuenta.</td></tr>
+        </table>
 
-        <h2>8. Contacto</h2>
+        <div class="highlight-box">
+            <strong>Nota sobre la eliminación:</strong> Una vez eliminados, los datos no pueden recuperarse. Si necesita conservar información específica, le recomendamos exportarla antes de solicitar la eliminación de su cuenta.
+        </div>
+
+        <h2>7. Eliminación de Datos y Cuenta</h2>
+        <p>Usted tiene derecho a solicitar la eliminación de su cuenta y todos los datos personales asociados. Dado que las cuentas de UOAVID son administradas por el ministerio, el proceso es el siguiente:</p>
+
+        <div class="success-box">
+            <strong>¿Cómo solicitar la eliminación de su cuenta?</strong>
+            <ul style="margin-top: 10px;">
+                <li>📧 Envíe un correo a <strong>josephevilasolis@gmail.com</strong> con el asunto: <em>"Solicitud de eliminación de cuenta UOAVID"</em>.</li>
+                <li>Indique el correo electrónico asociado a su cuenta.</li>
+                <li>Procesaremos su solicitud en un plazo máximo de <strong>30 días hábiles</strong>.</li>
+                <li>Una vez eliminada la cuenta, todos sus datos personales serán borrados permanentemente de nuestros servidores en un plazo de <strong>90 días adicionales</strong>.</li>
+            </ul>
+        </div>
+
+        <p>Al eliminar su cuenta, se borrarán: sus datos de perfil, historial de actividades, peticiones de oración y tokens de notificación. Algunos datos pueden conservarse de forma anónima y agregada para fines estadísticos del ministerio.</p>
+
+        <h2>8. Sus Derechos</h2>
+        <p>Usted tiene derecho a:</p>
+        <ul>
+            <li>✅ <strong>Acceder</strong> a sus datos personales almacenados.</li>
+            <li>✅ <strong>Rectificar</strong> información incorrecta o desactualizada.</li>
+            <li>✅ <strong>Eliminar</strong> su cuenta y datos personales (ver Sección 7).</li>
+            <li>✅ <strong>Portar</strong> sus datos en un formato legible.</li>
+            <li>✅ <strong>Oponerse</strong> al procesamiento de sus datos en cualquier momento.</li>
+            <li>✅ <strong>Revocar</strong> su consentimiento contactando al administrador.</li>
+        </ul>
+
+        <h2>9. Privacidad de Menores</h2>
+        <p>UOAVID no está dirigida a menores de 13 años. No recopilamos intencionalmente información de niños menores de 13 años. Si usted cree que un menor ha proporcionado información personal, contáctenos para eliminarla de inmediato.</p>
+
+        <h2>10. Cambios a esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad periódicamente. Le notificaremos sobre cambios significativos mediante una notificación dentro de la Aplicación o por correo electrónico. Le recomendamos revisar esta página regularmente.</p>
+
+        <h2>11. Contacto</h2>
         <div class="contact-box">
-            <p>Si tiene preguntas sobre esta política, contáctenos:</p>
+            <p>Si tiene preguntas sobre esta política o desea ejercer sus derechos, contáctenos:</p>
             <p style="font-size: 1.3em; margin-top: 15px;">📧 <a href="mailto:josephevilasolis@gmail.com">josephevilasolis@gmail.com</a></p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.85;">Responderemos en un plazo máximo de 30 días hábiles.</p>
         </div>
 
         <div class="footer">
